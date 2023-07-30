@@ -7,7 +7,7 @@
 	<title>HELLO i am Markus</title>
 </head>
 <header>This page is for testing different HTML elements</header>
-<body>
+<body style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
 	<h1 id="Top">Homepage Markus Kirchhoff</h1>
 	<hr>
 	<h2>Facts and Figures</h2>
@@ -17,7 +17,7 @@
 <i>Hint: with "ALT + B" you can now open files in default browser - <br>
 	with "SHIFT + ALT + B" you can choose the browser.</i> <br>
 <ul><b>Facts</b><br>
-	<li id="Reached"><b>Goals reached</b></li>
+	<li style="background-color: rgb(30, 210, 114);"  id="Reached"><b>Goals reached</b></li>
 		<ul>
 			<li>Expert in SAP CS/PM module</li>
 			<li>Expert in mobile solution</li>
@@ -26,7 +26,7 @@
 			<li>SAP Workflow expert</li>
 			<li>Project Management expertise in global rollout projects</li>
 		</ul><br>
-	<li id="Inwork"><b>Goals in work/progress</b></li>
+	<li style="background-color: gold;"  id="Inwork"><b>Goals in work/progress</b></li>
 		<ul>
 			<li>Build up knowledge in Salesforce Field Service</li>
 			<li>SAP Restful Application Programming</li>
@@ -45,7 +45,23 @@
 		"pre" tag
 	</p>
 </pre>
-
+<p>
+	<ul>Formatting elements are here:
+		<li>&lt;b&gt; <b>bold text</b></li>
+		<li>&lt;strong&gt; - <strong>important text</strong> </li>
+		<li>&lt;i&gt; - <i>Italic text</i> </li>
+		<li>&lt;em&gt; - <em>emphasized text</em> </li>
+		<li>&lt;mark&gt; - <mark>marked text</mark> </li>
+		<li>&lt;small&gt; - <small>smaller text</small> </li>
+		<li>&lt;del&gt; - <del>Deleted text</del> </li>
+		<li>&lt;ins&gt; - <ins>inserted text</ins> </li>
+		<li>&lt;sub&gt; - <sub>subscript text</sub> </li>
+		<li>&lt;sup&gt; - <sup>superscript text</sup> </li>
+	</ul>
+</p>
+<p>
+	<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+</p>
 
 <section> Lorem something Lorem ipsum dolor sit amet consectetur <br>
 adipisicing elit. Id dolores vero, inventore qui, <br>
@@ -94,12 +110,14 @@ adipisicing elit. Id dolores vero, inventore qui, <br>
 </section>
 <br>
 <img src="Russell_Falls.jpg" alt="Russel Falls" width="800" height="600">
+<!-- Comment: specify width and height of images whenever possible to reserve the space within the page -->
 <br>
 <a href="#Reached">Goals Reached</a><br>
 <a href="#Inwork">Goals in work</a><br>
 <a href="#Top" title="Back to Top">Back to top</a><br>
 <a targ="_blank" href="https://www.w3schools.com/tags/ref_language_codes.asp">Language Code references</a><br>
 <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a">Language Reference for "&lt;a&gt;"reference</a> <br>
+<a target ="_blank"   href="https://mkirchhoff.de">Visit my other Homepage</a>
 &copy; by Markus Kirchhoff 2023.
 </body>
 </html>
