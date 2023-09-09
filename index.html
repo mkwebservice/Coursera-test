@@ -4,20 +4,33 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta content="First HTML page">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
 	<title>HELLO i am Markus</title>
 </head>
-<header>This page is for testing different HTML elements</header>
-<body style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+<header>This page is for testing different HTML elements <br>
+
+	<p class="navbar">
+		<ul id="pages">
+			<li><a href="personal.html">Personal Information</a> </li>
+			<li><a href="portfolio.html">Project Portfolio</a></li>
+			<li><a href="other.html"> Other information</a></li>
+		</ul>
+	</p>
+
+</header>
+<body>
 	<h1 id="Top">Homepage Markus Kirchhoff</h1>
 	<hr>
+
 	<h2>Facts and Figures</h2>
-<p title="Some background info"  style="color: cornflowerblue; background-color: bisque;"><b>Living in</b> Rastatt, Germany <br>
+<p title="Some background info"><b>Living in</b> Rastatt, Germany <br>
       <b>Occupation: </b>SAP Inhouse Consultant for global manufacturer of medical devices. <br>
 </p>
 <i>Hint: with "ALT + B" you can now open files in default browser - <br>
 	with "SHIFT + ALT + B" you can choose the browser.</i> <br>
 <ul><b>Facts</b><br>
-	<li style="background-color: rgb(30, 210, 114);"  id="Reached"><b>Goals reached</b></li>
+	<li id="Reached"><b>Goals reached</b></li>
 		<ul>
 			<li>Expert in SAP CS/PM module</li>
 			<li>Expert in mobile solution</li>
@@ -26,7 +39,7 @@
 			<li>SAP Workflow expert</li>
 			<li>Project Management expertise in global rollout projects</li>
 		</ul><br>
-	<li style="background-color: gold;"  id="Inwork"><b>Goals in work/progress</b></li>
+	<li id="Inwork"><b>Goals in work/progress</b></li>
 		<ul>
 			<li>Build up knowledge in Salesforce Field Service</li>
 			<li>SAP Restful Application Programming</li>

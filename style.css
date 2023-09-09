@@ -1,0 +1,85 @@
+
+header {
+    font-weight: bold;
+}
+
+body {background-color: rgb(209, 243, 243);
+
+}
+
+h1 {color:rgb(25, 201, 145);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px;
+    border-color: black;
+    display: block;
+    width: 200px;
+}
+
+ul {border: 1px;
+    border-color: black;
+
+}
+
+li {
+    border: 1px;
+    border-color: black;
+    text-align: center;
+}
+
+/*stype as navbar */
+#pages li {list-style: none;
+            border-radius: 5px;
+            
+
+}
+ a:visited , a:link {
+    text-decoration: none;
+    background-color: rgb(120, 239, 184);
+    border: 1px solid;
+    border-radius: 5px;
+    border-style: outset;
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 1px;
+}
+a:hover , a:active {
+    background-color: rgb(236, 192, 178);
+    columns: black;
+}
+
+body ul { text-align: center;
+            display: block;
+            width: 400px;
+            list-style-type: square;
+            padding: 10px;
+            list-style-position: outside;
+            margin-left: 10px;
+
+}
+
+.flex-container {
+    display: flex;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:stretch;
+    align-content: center;
+}
+
+.flex-container>div{
+    border-style:outset;
+    border-radius: 5px;
+    border-color: grey;
+    margin: 4px;
+    background-color: lightgray;
+    padding: 2px;
+    flex: 0 0 200px;
+    text-align: center;
+}
+
+.flex-container>div:hover {
+    background-color: antiquewhite;
+}
